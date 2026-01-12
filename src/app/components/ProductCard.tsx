@@ -1,6 +1,6 @@
 "use client";
 
-import { Product } from "@/types/product";
+import { Product } from "../../types/product";
 import { toggleFavorite, getFavorites } from "@/lib/favorites";
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -83,4 +83,5 @@ export default function ProductCard({ product }: Props) {
 
     </div>
   );
+
 }
