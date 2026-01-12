@@ -1,4 +1,4 @@
-import { Product } from ./types/product";
+import { Product } from "../../types/product";
 import ProductCard from "../ProductCard";
 
 interface Props {
@@ -18,5 +18,6 @@ export default function ProductGrid({ products }: Props) {
     </div>
   );
 }
+
 
 
